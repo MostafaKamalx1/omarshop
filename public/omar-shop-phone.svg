@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title>Omar Shop mobile icon</title>
+  <desc>Golden smartphone icon on a dark background</desc>
+  <defs>
+    <linearGradient id="gold" x1="18" y1="12" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f3d783"/>
+      <stop offset="1" stop-color="#a97b24"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="34" y1="25" x2="94" y2="103" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263b43"/>
+      <stop offset="1" stop-color="#101416"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="#0b0b0d"/>
+  <rect x="25" y="10" width="78" height="108" rx="17" fill="url(#gold)"/>
+  <rect x="32" y="19" width="64" height="90" rx="10" fill="url(#screen)"/>
+  <rect x="57" y="14" width="14" height="3" rx="1.5" fill="#332711"/>
+  <circle cx="64" cy="113" r="3" fill="#332711"/>
+  <path d="M46 78V53c0-4 3-7 7-7h22c4 0 7 3 7 7v25c0 4-3 7-7 7H53c-4 0-7-3-7-7Z" fill="#d2ad55" opacity=".95"/>
+  <path d="M56 59h16M56 68h16M56 77h9" stroke="#17130b" stroke-width="4" stroke-linecap="round"/>
+</svg>
