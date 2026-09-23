@@ -1,0 +1,29 @@
+{
+  "name": "mobile-shop-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.js",
+    "server:dev": "node --watch server/index.js",
+    "dev:all": "concurrently \"npm run server\" \"npm run dev\"",
+    "start": "node server/index.js",
+    "start:https": "node server/index.js --https",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "cors": "latest",
+    "concurrently": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "vite": "latest",
+    "mongoose": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,14 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: mobile-shop-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mobile_shop_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: MobileShopDB
+
+volumes:
+  mobile_shop_data:
